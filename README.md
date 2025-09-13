@@ -2,7 +2,6 @@
 [![codecov](https://codecov.io/gh/ahivert/tgtg-python/branch/master/graph/badge.svg)](https://codecov.io/gh/ahivert/tgtg-python)
 [![PyPI version](https://img.shields.io/pypi/v/tgtg?color=blue)](https://pypi.org/project/tgtg/)
 
-#test
 # tgtg-python
 
 Python client that help you to talk with [TooGoodToGo](https://toogoodtogo.com) API.
