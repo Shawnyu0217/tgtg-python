@@ -578,6 +578,11 @@ client.signup_by_email(email="<your_email>")
 
 ## Scripts
 
+## Virtual Environment
+
+Before running scripts or installing dependencies, make sure to activate your virtual environment:
+
+
 ### Authentication Script
 
 You can use [`scripts/authentication.py`](scripts/authentication.py:1) to get the latest authentication token. This is useful for refreshing or retrieving your access credentials outside of the main client.
