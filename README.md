@@ -576,6 +576,27 @@ client.signup_by_email(email="<your_email>")
 # client is now ready to be used
 ```
 
+## Scripts
+
+### Authentication Script
+
+You can use [`scripts/authentication.py`](scripts/authentication.py:1) to get the latest authentication token. This is useful for refreshing or retrieving your access credentials outside of the main client.
+
+**Usage:**
+```bash
+python scripts/authentication.py
+```
+
+### Watch Favorites Script
+
+The watcher feature allows you to monitor your favorite stores for updates in a loop. Use [`scripts/watch_favorites.py`](scripts/watch_favorites.py:1) to run this feature.
+
+**Usage:**
+```bash
+export $(grep -v '^#' .env | xargs)
+python scripts/watch_favorites.py --loop
+```
+
 ## Developers
 
 This project uses poetry so you will need to install poetry locally to use following
