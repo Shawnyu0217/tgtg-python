@@ -125,3 +125,6 @@ dmypy.json
 
 # vscode
 .vscode
+
+# tgtg watcher state
+.tgtg-watcher/
