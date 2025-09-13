@@ -618,5 +618,5 @@ pre-commit install
 Run this command to run all tests:
 
 ```
-make test
+make test 
 ```
